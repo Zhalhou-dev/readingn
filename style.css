@@ -1,0 +1,51 @@
+#o {
+    width: 500;
+    height: 600;
+}
+
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#wimpy {
+    width: 600;
+    height: 700;
+}
+
+#enid {
+    width: 500;
+    height: 500;
+}
+
+#img {
+    background-color: chartreuse;
+    transition: transform: .2s;
+    border: 10px solid #AAAAAA;
+}
+#img:hover{
+    transform: scale(0.9)
+}
+
+#wimp {
+    width: 700;
+    height: 900;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 25;
+}
+
+.links {
+    display: inline;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    width: 100;
+}
